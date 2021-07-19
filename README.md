@@ -1,6 +1,6 @@
 ## Задание
 
-# Создайте простой http server 
+### Создайте простой http server 
 
 1. На GET /dir_name выведите в консоль - /home/...путь_к_папке_проекта
 2. На GET /file_name выведите в консоль - /home/...путь_к_папке_проекта/имя_запускаемого_файла
@@ -10,9 +10,17 @@
 6. На POST запрос с телом { password: 'supper-secure-password' }, сервер должен отвечать { isValid: true }, при любом другом пароле { isValid: false }.
 На сервере проверку реализовать при помощи сравнения hash:
 для генерации hash используйте функцию
-salt = salt
-iterations = 100000
-keylen = 64
-digest = sha512
+
+
+
+
+| Parameter        | Value   |
+| ------------- | ------------- |
+| salt  | salt  |
+|  iterations  |   100000  |
+|  keylen  |  64  |
+|  digest |    sha512 |
+
 Buffer преобразуйте к строке с форматом hex
 hash = 37e753db1079f7d8ff8d145769664df46b12d8c3a3c4930a2e66ab76a8bfb4ca9e0fe69b7bc40355755846342cf19c95c58fa538d964963f04aff409621ec330
+
