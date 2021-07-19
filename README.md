@@ -9,7 +9,7 @@
 5. При открытии в браузере страницы http://localhost:8080/home.html должна выводиться надпись This is home page
 6. На POST запрос с телом { password: 'supper-secure-password' }, сервер должен отвечать { isValid: true }, при любом другом пароле { isValid: false }.
 На сервере проверку реализовать при помощи сравнения hash:
-для генерации hash используйте функцию
+для генерации hash используйте [функцию]: https://nodejs.org/api/crypto.html#crypto_crypto_pbkdf2sync_password_salt_iterations_keylen_digest
 
 
 
