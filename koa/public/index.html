@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <form action='http://localhost:3000' method="POST" class="container">
+    <p><b>ТасОчка по koa </b></p>
+    <p>Имя:</p>
+    <input name="name" type="text">
+    <p>Фамилия:</p>
+    <input name="lastName" type="text">
+    <p>Фреймворк:</p>
+    <select name="framework">
+      <option value="React">
+        React
+      </option>
+      <option value="Vue">
+        Vue
+      </option>
+      <option value="Angular">
+        Angular
+      </option>
+    </select>
+    <p></p><textarea name="frameworkReason" aria-setsize="100"></textarea>
+    <input type="submit"></p>
+  </form>
+
+</body>
+
+</html>
